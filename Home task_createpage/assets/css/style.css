@@ -1,0 +1,161 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+
+}
+
+
+.navbar {
+    background-color: green;
+    color: white;
+    padding: 15px 0;
+
+}
+
+.navbar-header {
+    display: inline-block;
+}
+
+.navbar-logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.navbar-items {
+    display: inline-block;
+    float: right;
+}
+
+.navbar-items ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navbar-items ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.navbar-items ul li:first-child {
+    margin-left: 0;
+}
+
+.navbar-items ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar-toggle {
+    display: none;
+}
+
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
+.main-section {
+    background-color: #fff;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.head-main {
+    font-size: 36px;
+    color: #007bff;
+}
+
+.head-last {
+    font-size: 24px;
+    color: #007bff;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 30px;
+}
+
+.about {
+    background-color: green;
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.about-team {
+    padding: 50px 0;
+}
+
+.about-team .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.about-team .base-about {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.about-team .base-about h3 {
+    font-size: 24px;
+}
+
+.about-team .base-about h5 {
+    font-size: 16px;
+}
+
+.about-team .columns {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.about-team .column {
+    width: calc(25% - 20px);
+    margin-bottom: 30px;
+}
+
+.about-team .card {
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+}
+
+.about-team .card-content {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    text-align: center;
+}
+
+.card.pink .card-content {
+    background-color: rgba(255, 105, 180, 0.8);
+}
+
+.card.green .card-content {
+    background-color: rgba(0, 128, 0, 0.8);
+}
+
+.card.yellow .card-content {
+    background-color: rgba(255, 255, 0, 0.8);
+}
+
+.card.blue .card-content {
+    background-color: rgba(0, 0, 255, 0.8);
+}
+
+.card-content .alert {
+    margin: 0;
+}
